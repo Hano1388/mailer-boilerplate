@@ -1,0 +1,26 @@
+{
+  "name": "mailer-boilerplate",
+  "version": "1.0.0",
+  "description": "a node.js bootstrap handlebars mailer boilerplate to submit and send emails from client to server using nodemailer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "nodemailer",
+    "nodemailer ajax",
+    "bootstrap",
+    "handlebars"
+  ],
+  "author": "Hindreen",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemailer": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
