@@ -1,6 +1,6 @@
-##nodemailer with ajax
+## nodemailer with ajax
 
-####Requirements:
+#### Requirements:
   - you need to have nodejs installed
   - clone the repository
   - change domain to yours in server.js
