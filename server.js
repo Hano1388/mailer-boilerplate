@@ -24,7 +24,7 @@ app.post('/', function(req, res) {
   // create reusable transporter object using the default SMTP transport
   var transporter = nodemailer.createTransport({
     service: 'webmail',
-    host: 'mail.bcts.ca',
+    host: 'mail.yourDomain.com',
     port: 465,
     tls: {
       rejectUnauthorized: false
@@ -36,7 +36,7 @@ app.post('/', function(req, res) {
   // setup email data with unicode symbol
   var mailOptions = {
     from: `nodemailer contact ${req.body.email}`,
-    to: 'hindreen@bcts.ca',
+    to: 'info@domain.com',
     subject: 'User Form Contact',
     html: output
   };
